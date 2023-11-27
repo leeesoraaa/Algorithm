@@ -5,16 +5,16 @@
 #             answer = p                   
 #     return answer
 
+# def solution(participant, completion):
+
+#     p = sorted(participant)
+#     c = sorted(completion)
+
+#     for i, j in zip(p, c):
+
+#         if i != j:
+#             return i
+import collections
 def solution(participant, completion):
-
-    p = sorted(participant)
-    c = sorted(completion)
-
-    for i, j in zip(p, c):
-
-        if i != j:
-            return i
-        else:
-            continue
-
-    return p[-1]
+    answer = collections.Counter(participant) - collections.Counter(completion)
+    return list(answer.keys())[0]
