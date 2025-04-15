@@ -1,2 +1,8 @@
-# Algorithm
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# 📘 Algorithm Study
+
+> 매일 최소 한 문제 이상 풀며 알고리즘 실력을 쌓기 위한 기록용 레포지토리입니다.
+
+## ✅ 목표
+- 하루 최소 1문제 이상 알고리즘 문제 풀이
+- 다양한 알고리즘/자료구조 유형에 대한 이해와 익숙해지기
+- 코딩 테스트 실력 향상
